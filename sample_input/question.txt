@@ -1,0 +1,1 @@
+"Please provide the position information (x, y, w, h) of the bird image.
