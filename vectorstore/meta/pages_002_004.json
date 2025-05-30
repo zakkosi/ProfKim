@@ -1,0 +1,10 @@
+{
+  "doc_id": "pages_002_004",
+  "text": "\nThis book is dedicated to my parents,\nZdzisław and Jadwiga,\nand my family,\nLyn, Anne, and Stephen.\n1 Introduction\n1\nWhat is computer vision?\n• A brief history •\nBook overview • Sample syllabus • Notation\nn^\n2 Image formation\n29\nGeometric primitives and transformations •\nPhotometric image formation •\nThe digital camera\n3 Image processing\n99\nPoint operators • Linear ﬁltering •\nMore neighborhood operators • Fourier transforms •\nPyramids and wavelets • Geometric transformations •\nGlobal optimization\n4 Feature detection and matching\n205\nPoints and patches •\nEdges • Lines\n5 Segmentation\n267\nActive contours • Split and merge •\nMean shift and mode ﬁnding • Normalized cuts •\nGraph cuts and energy-based methods\n6 Feature-based alignment\n309\n2D and 3D feature-based alignment •\nPose estimation •\nGeometric intrinsic calibration\n7 Structure from motion\n343\nTriangulation • Two-frame structure from motion •\nFactorization • Bundle adjustment •\nConstrained structure and motion",
+  "image_path": "page_003.jpg",
+  "pages": [
+    2,
+    3,
+    4
+  ]
+}

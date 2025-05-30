@@ -1,0 +1,10 @@
+{
+  "doc_id": "pages_004_006",
+  "text": "1 Introduction\n1\nWhat is computer vision?\n• A brief history •\nBook overview • Sample syllabus • Notation\nn^\n2 Image formation\n29\nGeometric primitives and transformations •\nPhotometric image formation •\nThe digital camera\n3 Image processing\n99\nPoint operators • Linear ﬁltering •\nMore neighborhood operators • Fourier transforms •\nPyramids and wavelets • Geometric transformations •\nGlobal optimization\n4 Feature detection and matching\n205\nPoints and patches •\nEdges • Lines\n5 Segmentation\n267\nActive contours • Split and merge •\nMean shift and mode ﬁnding • Normalized cuts •\nGraph cuts and energy-based methods\n6 Feature-based alignment\n309\n2D and 3D feature-based alignment •\nPose estimation •\nGeometric intrinsic calibration\n7 Structure from motion\n343\nTriangulation • Two-frame structure from motion •\nFactorization • Bundle adjustment •\nConstrained structure and motion\n8 Dense motion estimation\n381\nTranslational alignment • Parametric motion •\nSpline-based motion • Optical ﬂow •\nLayered motion\n9 Image stitching\n427\nMotion models • Global alignment •\nCompositing\n10 Computational photography\n467\nPhotometric calibration • High dynamic range imaging •\nSuper-resolution and blur removal •\nImage matting and compositing •\nTexture analysis and synthesis\n11 Stereo correspondence\n533\nEpipolar geometry • Sparse correspondence •\nDense correspondence • Local methods •\nGlobal optimization • Multi-view stereo\n12 3D reconstruction\n577\nShape from X • Active rangeﬁnding •\nSurface representations • Point-based representations •\nVolumetric representations • Model-based reconstruction •\nRecovering texture maps and albedos\n13 Image-based rendering\n619\nView interpolation • Layered depth images •\nLight ﬁelds and Lumigraphs • Environment mattes •\nVideo-based rendering\n14 Recognition\n655\nObject detection • Face recognition •\nInstance recognition • Category recognition •\nContext and scene understanding •\nRecognition databases and test sets\n",
+  "image_path": "page_005.jpg",
+  "pages": [
+    4,
+    5,
+    6
+  ]
+}
