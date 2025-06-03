@@ -1,8 +1,7 @@
 import os
 from inference.image_description import describe_image
-from inference.image_retrieval import retrieve_similar_images
 from inference.professor_response import generate_professor_response
-from utils.image_utils import load_image_as_bytes, load_image_resized
+from Utils.faiss_utils import retrieve_similar_images_from_text
 
 # ------------------------------
 # 설정
@@ -32,7 +31,7 @@ print(image_description)
 # 3. 유사 이미지 검색 (ColPali + FAISS)
 # ------------------------------
 print("\n[2] ColPali로 유사 이미지 검색 중...")
-retrieved_images = retrieve_similar_images(image_resized, VECTOR_DB_PATH)
+retrieved_images = retrieve_similar_images_from_text(image_description, VECTOR_DB_PATH)
 print("\n 유사 이미지 인덱스:", retrieved_images)
 
 # ------------------------------

@@ -1,1 +1,1 @@
-"Please provide the position information (x, y, w, h) of the bird image.
+Please describe red circle image in text.

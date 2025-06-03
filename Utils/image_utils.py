@@ -26,6 +26,10 @@ clip_preprocess = transforms.Compose([
                          std=[0.26862954, 0.26130258, 0.27577711])
 ])
 
+def load_image_resized(image_path, size=(224, 224)):
+    with Image.open(image_path).convert("RGB") as img:
+        return img.resize(size)
+
 def load_image_as_tensor(image_path):
     img = Image.open(image_path).convert("RGB")
     return clip_preprocess(img)
